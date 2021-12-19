@@ -4,7 +4,16 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background: linear-gradient(
+    to left,
+    #0b035a,
+    #392da7,
+    #5013b1,
+    #400d91,
+    #5219ad,
+    #722cac,
+    #57096b
+  );
   color: #fff;
   overflow-x: hidden;
 }
@@ -138,4 +147,21 @@ button:focus {
 button:disabled {
   opacity: 0.8;
   pointer-events: none;
+}
+
+.rainbow {
+  background-image: linear-gradient(
+    to left,
+    rgb(226, 33, 33),
+    rgb(255, 147, 59),
+    rgb(255, 230, 0),
+    rgb(138, 224, 0),
+    rgb(0, 255, 55),
+    rgb(0, 255, 149),
+    rgb(0, 255, 200)
+  );
+  font-size: 60px;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  color: transparent;
 }
